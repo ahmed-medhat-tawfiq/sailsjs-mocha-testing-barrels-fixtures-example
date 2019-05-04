@@ -1,0 +1,63 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.3
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - sails > connect > body-parser > debug:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > compression > debug:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > express-session > debug:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > serve-index > debug:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > morgan > debug:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > serve-static > send > debug:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > connect-timeout > debug:
+        patched: '2019-05-04T00:52:52.089Z'
+  'npm:lodash:20180130':
+    - sails-disk > waterline-cursor > lodash:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > sails-disk > waterline-criteria > lodash:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > sails-disk > waterline-cursor > lodash:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails-disk > waterline-criteria > lodash:
+        patched: '2019-05-04T00:52:52.089Z'
+  'npm:mime:20170907':
+    - sails > connect > serve-static > send > mime:
+        patched: '2019-05-04T00:52:52.089Z'
+  'npm:ms:20170412':
+    - sails > connect > connect-timeout > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > connect-timeout > debug > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > body-parser > debug > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > express-session > debug > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > serve-static > send > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > morgan > debug > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > compression > debug > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > serve-index > debug > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > serve-static > send > debug > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > serve-favicon > ms:
+        patched: '2019-05-04T00:52:52.089Z'
+  'npm:negotiator:20160616':
+    - sails > connect > compression > accepts > negotiator:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > connect > serve-index > accepts > negotiator:
+        patched: '2019-05-04T00:52:52.089Z'
+  'npm:qs:20140806-1':
+    - grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2019-05-04T00:52:52.089Z'
+    - sails > grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2019-05-04T00:52:52.089Z'
