@@ -21,7 +21,8 @@
     "include-all": "^0.1.6",
     "rc": "^1.1.5",
     "sails": "^0.11.3",
-    "sails-disk": "^0.10.8"
+    "sails-disk": "^0.10.8",
+    "snyk": "^1.189.0"
   },
   "devDependencies": {
     "barrels": "^1.6.2",
@@ -34,7 +35,9 @@
   "scripts": {
     "start": "node app.js",
     "debug": "node debug app.js",
-    "test": "PORT=9999 NODE_ENV=test mocha -R spec -b --recursive"
+    "test": "PORT=9999 NODE_ENV=test mocha -R spec -b --recursive",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "main": "app.js",
   "repository": {
@@ -45,5 +48,6 @@
   "license": {
     "type": "MIT",
     "url": "http://www.opensource.org/licenses/MIT"
-  }
+  },
+  "snyk": true
 }
