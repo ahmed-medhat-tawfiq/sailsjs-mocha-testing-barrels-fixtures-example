@@ -5,7 +5,7 @@
   "description": "An example of Sails.js-project testing with Mocha and Barrels for fixtures",
   "keywords": [],
   "dependencies": {
-    "ejs": "^2.3.4",
+    "ejs": "^3.1.7",
     "grunt": "^0.4.5",
     "grunt-contrib-clean": "^0.7.0",
     "grunt-contrib-coffee": "^0.13.0",
